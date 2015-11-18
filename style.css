@@ -1,0 +1,524 @@
+/*Base Area Starts*/ 
+body {
+    background: #f3f3f3;
+}
+.container{
+    max-width: 600px;
+}
+.wrapper{
+    padding: 8px 10px;
+}
+ul{
+    list-style: none;
+}
+a,ul li a{
+    text-decoration: none;
+}
+a:hover,ul li a:hover{
+    text-decoration: none;
+}
+.left{
+    float: left;
+} 
+.right{
+    float: right;
+}
+/*Base Area Ends*/
+/*Header Area Starts*/
+.navMenu{
+    background-color: #00728b;
+    box-shadow: 3px 0 5px #888888;
+    height: 48px;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    position: fixed;
+}
+.navBarIconArea a{
+    font-size: 20px;
+    color: #fff;
+    font-weight: 600;
+}
+.prosnoiconArea{
+    text-align: center;
+}
+.prosnoicon{
+    background: url('img/SpriteImage.png') no-repeat -136px -1733px;
+	padding-left: 68px;
+    padding-bottom: 10px;
+}
+.bellIconsArea{
+    text-align: right;
+}
+.bellIconsArea a{
+    font-size: 20px;
+    color: #fff;
+    font-weight: 600;
+}
+.headerArea{
+    padding-bottom: 64px;
+}
+/*Header Area Ends*/
+/*Sidebar Area Starts*/
+.sidebarArea {
+  box-shadow: 10px 14px 34px #888888;
+  background: #fff;
+  height: 70%;
+  max-width: 480px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  position: fixed;
+  top: 122px;
+  width: 90%;
+  z-index: 2;
+  right: 0;
+  left: 0;
+  margin: 0 auto;
+}
+/*Header Area Starts*/
+.headerContainerArea{
+    background-color: #00728b;
+    height: 48px;
+    margin-bottom: 20px;
+    top: 75px;
+    width: 90%;
+    z-index: 3;
+    position: fixed;
+    max-width: 480px;
+}
+.feederArea {
+  padding-top: 20px;
+}
+.pollingPeople a{
+    color: #fff;
+    font-size: 19px;
+}
+.closeIcon{
+    text-align: right;
+}
+.closeIcon a{
+    color: #fff;
+    font-size: 20px;
+}
+.followArea{
+    text-align: right;
+    line-height: 48px;
+    margin-bottom: 20px;
+}
+.followIcon{
+    background: url('img/SpriteImage.png') no-repeat -5px -1231px;
+    padding-left: 81px;
+    padding-bottom: 10px;
+}
+.followIcon1{
+    background: url('img/SpriteImage.png') no-repeat -5px -1489px;
+    padding-left: 81px;
+    padding-bottom: 10px;
+}
+.userDetailArea a span{
+    font-size: 15px;
+    color: #505050;
+    padding-left: 5px;
+}
+.userDetailArea img{
+    vertical-align: middle;
+}
+.aroDetailArea{
+    background: #f8f8f8;
+    border: 1px solid #ddd;
+    margin: 20px 0;
+}
+.aroDetail a i{
+    font-size: 15px;
+    color: #505050;
+    line-height: 50px;
+}
+.aroDetail a i:hover{
+    color: green;
+}
+.aroDetail a span{
+    color: #505050;
+    font-size: 15px;
+    padding-left: 5px;
+}
+/*Sidebar Area Ends*/
+/*Feed Area Starts*/
+.feedArea{
+    background: #ffffff;
+     padding-top: 15px;
+}
+.imgArea img {
+    border-radius: 50px;
+}
+.imgArea{
+    padding-right: 12px;
+    padding-left: 5px;
+}
+img {
+    vertical-align: top;
+}
+.userName p{
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 15px;
+}
+.userName p a{
+    font-size: 15px;
+}
+.userName a{
+    color: #3c82b6;
+}
+.userTitle a{
+    font-size: 12px;
+    color: #999999;
+}
+.voteNum {
+    margin-top: -20px;
+}
+.voteNum  p a{
+    font-size: 15px;
+    
+}
+.quesDiv{
+    border: 1px solid #e0e0de;
+    border-radius: 2px;
+}
+.proshnoArea ul{
+    padding-left: 1px;
+}
+.proshnoArea ul li{
+    display: inline-block;
+}
+.proshnoArea ul li a{
+    display: block;
+    font-size: 22px;
+    color: #000; 
+}
+.proshnoArea p span{
+    font-weight: 800;
+    font-size: 24px;
+}
+
+.option {
+    cursor: pointer;
+    height: 50px;
+    margin: -4px 0 4px;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+.optionArea {
+    margin-left: 10px;
+    margin-right: 10px;
+    bottom: 0;
+    cursor: pointer;
+    height: 45px;
+    left: 0;
+    outline: medium none;
+    position: absolute;
+    right: 0;
+    top: 0;
+    white-space: nowrap;
+}
+
+.bottomOptionArea {
+    background-color:  #6c7a89;
+    bottom: 0;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.35);
+    left: 0;
+    margin: 2px 0 3px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    transition: background 0.5s ease 0s;
+}
+.upperOptionArea {
+    opacity: 1;
+    width: 50%;
+}
+.upperOptionArea {
+    background-color: #ffa000;
+    bottom: 0;
+    left: 0;
+    margin: 2px 0 3px;
+    opacity: 1;
+    position: absolute;
+    right: 0;
+    top: 0;
+    transition-duration: 0.5s;
+    transition-property: background, opacity, width;
+    width: 0;
+}
+.optionNameArea {
+    color: #fff;
+    display: inline-block;
+    font-size: 15px;
+    height: 38px;
+    line-height: 38px;
+    margin-bottom: 3px;
+    margin-top: 2px;
+    overflow: hidden;
+    position: relative;
+    text-overflow: ellipsis;
+    transition: width 0.5s ease 0s;
+    vertical-align: middle;
+    white-space: normal;
+    width: calc(100% - 30px);
+}
+.optionNameArea {
+    width: calc(100% - 30px - 16px);
+}
+.optionName {
+    width: calc(100% - 72px);
+}
+.optionName {
+    display: inline-block;
+    line-height: normal;
+    vertical-align: middle;
+    width: 100%;
+    padding-left: 10px;
+}
+.percentText {
+    right: 0;
+}
+.percentText {
+    color: #fff;
+    cursor: pointer;
+    font-size: 12px;
+    padding-right: 19px;
+    position: absolute;
+    right: 0px;
+    top: 25%;
+    transition: right 0.5s ease 0s;
+}
+.comments_area{
+     padding: 0 15px;
+     margin-bottom: 8px;
+} 
+.comments {
+    overflow: hidden;
+}
+.comentators_name {
+    font-size: 14px;
+    margin-left: 5px;
+}
+
+.comentators_name a {
+    color: #3c82b6;
+    text-decoration: none;
+}
+
+.commentArea ul{
+    padding-left: 8px;
+    padding-right: 10px;
+    padding-top: 12px;
+    padding-bottom: 2px;
+}
+.commentArea ul li{
+    display: inline-block;
+}
+.commentArea ul li a {
+    border: 1px solid #e0e0de;
+    color: #818181;
+    display: block;
+    font-size: 18px;
+    padding: 2px 6px;
+}
+.commentArea ul li a i{
+    font-size: 16px;
+    padding-right: 20px;
+}
+.feeder{
+    margin-bottom: 20px;
+}
+/*Feed Area Ends*/
+/*Comment Area Starts*/
+.commentSection{
+    background: #fff;
+}
+.aroComment{
+    text-align: center;
+    font-size: 14px;
+    color: #4b89f5;
+}
+.commenterDetails{
+    padding-left: 10px;
+}
+.commenterdetails a{
+    font-size: 15px;
+}
+.commentDetails p{
+    font-size: 14px;
+    color: #505050;
+}
+.commentTime{
+    margin-left: ;
+}
+.time{
+    margin-left: 0;
+    padding-left: 0;
+}
+
+.comments_div {
+    margin-left: 38px;
+    margin-top: 5px;
+    overflow: hidden;
+}
+.comments p {
+    font-size: 14px;
+    line-height: 16px;
+    margin: 0 20px 0 0;
+}
+.comments p {
+    font-size: 14px;
+    line-height: 16px;
+}
+.comments p {
+    font-size: 14px;
+    line-height: 16px;
+}
+.comments_time p {
+    color: #666;
+    margin: 0 0 0 28px;
+}
+.left {
+    float: left;
+}
+
+.comments_time a {
+    font-size: 14px;
+    margin: 0 20px 0 0;
+}
+.date {
+    color: #b3b3b3;
+    font-weight: normal !important;
+}
+
+.comments_time p {
+    color: #666;
+    margin: 0 0 0 28px;
+}
+
+.comments_time a {
+    font-size: 14px;
+    margin: 0 20px 0 9px;
+}
+.left {
+    float: left;
+}
+.time p{
+    color:#b3b3b3 ;
+    display: inline-block;
+}
+.commentRate p a{
+    color: #4b89f5;
+    font-size: 14px;
+}
+.comment{
+    margin-bottom: 20px;
+}
+/*Comment Area Ends*/
+/*Footer Area Starts*/
+.button{
+    background: url('img/SpriteImage.png') no-repeat -24px -525px;
+    vertical-align: middle;
+    padding-left: 33px;
+    padding-bottom: 20px;
+}
+.inputArea{
+    background: #fff;
+    border: 1px solid #e0e0e0;
+    line-height: 50px;
+    margin-right: 10px;
+    padding-left: 10px;
+    width: 102%;
+}
+.input{
+    padding-left: 0;
+    padding-right: 0px;
+}
+.inputButtonIcon{
+    line-height: 38px;
+    padding-left: 0;
+}
+.footerArea{
+    margin-bottom: 20px;
+}
+/*Footer Area Ends*/
+/*Transparent Area Starts*/
+.transparentArea {
+    background-color: #8f8f8f;
+    height: 1000px;
+    left: 0;
+    opacity: 0.7;
+    position: fixed;
+    top: 0;
+    width: 2000px;
+    z-index: 1;
+}
+/*Transparent Area Ends*/
+/*Input Icon Area Starts*/
+.inputIcon {
+    background-color: #00728b;
+    border: 2px solid #fffcda;
+    border-radius: 50px;
+    bottom: 16px;
+    box-shadow: 0 6px 11px #d3d3d3;
+    color: #fffcda;
+    display: block;
+    height: 55px;
+    padding-top: 3px;
+    position: fixed;
+    right: 16px;
+    text-align: center;
+    width: 55px;
+}
+.writeIcon {
+    background-image: url("img/SpriteImage.png");
+    background-position: -23px -979px;
+    height: 42px;
+    margin-left: 10px;
+    margin-top: 1px;
+}
+
+/*Input Icon Area Ends*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
